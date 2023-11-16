@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 
+// const [userFormData, setUserFormData] = useState<Partial<UserType>
+
+
 const Register = () => {
   const { register, handleSubmit, formState: { errors } } = useForm();
 

@@ -19,8 +19,8 @@ export default function Register() {
             confirmPassword:'',    
         }
     )
-    // const handleInput = (e) =>  {
-    //     e.preventDefault()
+    const handleInput = (e) =>  {
+        e.preventDefault()
 
         console.log(e.target.name, e.target.value)
         setUserFormData({...userFormData, [e.target.name] : e.target.value})
